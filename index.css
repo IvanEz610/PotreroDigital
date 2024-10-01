@@ -1,0 +1,6 @@
+h1 { color: white; font-style: italic; font-size: xx-large; text-align: center; background-color: coral; text-decoration: underline;}
+h2 {background-color: bisque;text-decoration: underline; font-size: larger; font-style: italic;text-align: center;}
+body { background-image: url(./imagen/mate.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; }
+ol {background-color: skyblue; color: white;}
+ul {background-color: skyblue; color: white;}
+img {width: 9cm; height: 5.3cm}

@@ -1,4 +1,4 @@
-h1 { color: white; font-style: italic; font-size: xx-large; text-align: center; background-color: coral; text-decoration: underline;}
+h1 { color: white; font-style: italic; font: xx-large;; text-align: center; background-color: coral; text-decoration: underline;}
 h2 {background-color: bisque;text-decoration: underline; font-size: larger; font-style: italic;text-align: center;}
 body { background-image: url(./imagen/mate.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; }
 ol {background-color: skyblue; color: white;}
@@ -24,72 +24,74 @@ ul {background-color: skyblue; color: white;}
     display: flex;
     background-color: tomato;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    height: 200px;
 }
 .flex-container div {
-    height: 60px;
+    height: 100px;
     margin: 10px;
     background-color: bisque;
     padding: 20px;
 
-
-
 }
-
 .flex-container .logo { 
      display: flex;  
     justify-content: center;
     align-items: center}
 
     .logo {
-    width: 150px;
-    height: 90px;
-   }
-
-
+    width: 170px;
+    height: 110px;
+}
 .flex-container .red { 
     display: flex;  
     justify-content: center;
-    align-items: center}
+    align-items: center
+}
 
 .ig {
     background-image: url(./imagen/ig.png);
-    width: 45px;
-    height: 45px;
+    width: 60px;
+    height: 60px;   
+    background-size: 60px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 45px;
     margin: 5px;
 
 }
 .wsp {
     background-image: url(./imagen/wsp.png);
-    width: 45px;
-    height: 45px;
+    width: 60px;
+    height: 60px;   
+    background-size: 60px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 45px;
     border-radius: 50%;
     margin: 5px;
 
 }
 .yt {
     background-image: url(./imagen/yt.png);
-    width: 45px;
-    height: 45px;
+    width: 60px;
+    height: 60px;   
+    background-size: 60px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 45px;
     margin: 5px;
 
 }
 .fb {
     background-image: url(./imagen/fb.png);
-    width: 45px;
-    height: 45px;
+    width: 60px;
+    height: 60px;   
+    background-size: 60px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 45px;
     margin: 5px;
-
 }    
+.titulo{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    }

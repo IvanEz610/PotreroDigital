@@ -4,18 +4,6 @@ body { background-image: url(./imagen/mate.jpg); background-size: cover; backgro
 ol {background-color: skyblue; color: white;}
 ul {background-color: skyblue; color: white;}
 .lo {width: 9cm; height: 5.3cm}
-.rd {width: 50px;height: 50px;}
-
-.social-icons {
-    display:inline;
-    margin: 15px; /* Espaciado alrededor */
-    width: 30px; /* Ancho del icono */
-    height: 10px; /* Alto del icono */
-    margin-left: 50px; /* Espacio entre iconos */
-    font-size: larger;
-    background-color: antiquewhite
-;
-}
 
 .float-wa {
     position: fixed;
@@ -31,3 +19,77 @@ ul {background-color: skyblue; color: white;}
     background-position: center;
     background-size: 100px;
 }
+
+.flex-container {
+    display: flex;
+    background-color: tomato;
+    justify-content: center;
+    align-items: center
+}
+.flex-container div {
+    height: 60px;
+    margin: 10px;
+    background-color: bisque;
+    padding: 20px;
+
+
+
+}
+
+.flex-container .logo { 
+     display: flex;  
+    justify-content: center;
+    align-items: center}
+
+    .logo {
+    width: 150px;
+    height: 90px;
+   }
+
+
+.flex-container .red { 
+    display: flex;  
+    justify-content: center;
+    align-items: center}
+
+.ig {
+    background-image: url(./imagen/ig.png);
+    width: 45px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45px;
+    margin: 5px;
+
+}
+.wsp {
+    background-image: url(./imagen/wsp.png);
+    width: 45px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45px;
+    border-radius: 50%;
+    margin: 5px;
+
+}
+.yt {
+    background-image: url(./imagen/yt.png);
+    width: 45px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45px;
+    margin: 5px;
+
+}
+.fb {
+    background-image: url(./imagen/fb.png);
+    width: 45px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45px;
+    margin: 5px;
+
+}    

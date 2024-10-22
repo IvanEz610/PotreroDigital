@@ -1,37 +1,14 @@
-h1 { color: white; font-style: italic; font: xx-large;; text-align: center; background-color: coral; text-decoration: underline;}
-h2 {background-color: bisque;text-decoration: underline; font-size: larger; font-style: italic;text-align: center;}
 body { background-image: url(./imagen/mate.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; }
-ol {background-color: skyblue; color: white;}
-ul {background-color: skyblue; color: white;}
 
+h1 { color: white; font-style: italic; font: xx-large;; text-align: center; background-color: coral; text-decoration: underline;}
+h2 { color: aliceblue;font-style: initial;font-size: x-large; text-align: center; background-color: chocolate;}
 .ida { color: aliceblue;font-style: initial;font-size: x-large; text-align: center; background-color: chocolate;}
-
-
-.nave {color: blue;}
-.nave:hover{ color: red;}
-
-.float-wa {
-    position: fixed;
-    width: 9vh;
-    height: 9vh;
-    bottom: 1vw;
-    right: 1vh;
-    border-radius:50% ; /* Bordes redondeados */
-    text-align: center; /* Centrar el icono */
-    z-index: 100; /* Asegurar que esté por encima de otros elementos */
-    background-image: url(./imagen/wsp.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:9vh;
-}
-
 
 .lo {  display: flex;
     background-color: tomato;
     justify-content: center;
     align-items: center;
     height: 25vw ;
-    width: 95vw;
 }
 .lo div {
     height: 22vw;
@@ -65,7 +42,6 @@ ul {background-color: skyblue; color: white;}
         justify-content: center;
         align-items: center;
         height: 40vw ;
-        width: 95vw;
     }
     .la div {
         height: 30vw;
@@ -81,8 +57,7 @@ ul {background-color: skyblue; color: white;}
     background-color: tomato;
     justify-content: center;
     align-items: center;
-    height: 10vw;
-    width: 95vw;
+    height: 10vw ;
 }
 .flex-container div {
     height: 5vw;
@@ -173,3 +148,56 @@ ul {background-color: skyblue; color: white;}
     margin: 1vw;
     background-color: bisque;
     padding: 1vw;}
+
+
+    .lo {  display: flex;
+        background-color: tomato;
+        justify-content: center;
+        align-items: center;
+        height: 25vw ;
+        width: 95vw;
+        margin: 1vw;
+    }
+    .lo div {
+        height: 22vw;
+        width: 42;
+        margin: 1vw;
+        background-color: bisque;
+        padding: 1vw;}
+    
+    .lo .media {
+        display: flex;  
+        justify-content: center;
+        align-items: center}
+    
+        .media{
+            width: 43vw;
+            height: 21.5vw;    
+        }
+        
+    .lo .iframe {
+        display: flex;    /* Usar flexbox para centrar contenido */
+        justify-content: center; /* Centrar horizontalmente */
+        align-items: center; /* Centrar verticalmente */
+        text-align: center;
+    }
+    .iframe{
+        width: 100%;      /* 70% del ancho de la ventana */
+        height: 100%;     /* 50% de la altura de la ventana */}
+    
+        .la {  display: flex;
+            background-color: tomato;
+            justify-content: center;
+            align-items: center;
+            height: 40vw ;
+            width: 95vw;
+            margin: 1vw;
+        }
+        .la div {
+            height: 30vw;
+            width: 90vw;
+            margin: 1vw;
+            background-color: bisque;
+            padding: 1vw;}
+    
+    

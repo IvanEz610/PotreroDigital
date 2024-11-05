@@ -4,6 +4,22 @@ h1 { color: white; font-style: italic; font: xx-large;; text-align: center; back
 h2 { color: aliceblue;font-style: initial;font-size: x-large; text-align: center; background-color: chocolate;}
 .ida { color: aliceblue;font-style: initial;font-size: x-large; text-align: center; background-color: chocolate;}
 
+.float-wa {
+    position: fixed;
+    width: 9vh;
+    height: 9vh;
+    bottom: 1vw;
+    right: 1vh;
+    border-radius:50% ; /* Bordes redondeados */
+    text-align: center; /* Centrar el icono */
+    z-index: 100; /* Asegurar que esté por encima de otros elementos */
+    background-image: url(./imagen/wsp.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:9vh;
+}
+
+
 .lo {  display: flex;
     background-color: tomato;
     justify-content: center;
@@ -200,4 +216,34 @@ h2 { color: aliceblue;font-style: initial;font-size: x-large; text-align: center
             background-color: bisque;
             padding: 1vw;}
     
+ /* Para dispositivos móviles (menos de 600px) */
+@media only screen and (max-width: 778px) {
+    .flex-container {
+        background-color: lightblue; }
     
+    .mobile-only {
+        display: block; /* Mostrar solo en móviles */
+    }
+    
+    .desktop-only {
+        display: none; /* Ocultar en móviles */
+    }
+}
+
+/* Para computadoras de escritorio (768px y más) */
+@media only screen and (min-width: 992px) {
+    .flex-container {
+        background-color:crimson; /* Fondo coral para escritorio */
+    }
+    
+    .mobile-only {
+        display: none; /* Ocultar en escritorio */
+    }
+    
+    .desktop-only {
+        display: block; /* Mostrar solo en escritorio */
+    }
+}
+
+
+            

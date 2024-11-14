@@ -5,6 +5,7 @@ body { background-image: url(./imagen/mate.jpg); background-size: cover; backgro
 .nave {color: blue;}
 .nave:hover{ color: red;}
 
+
 .text{
 display: flex;
 flex-wrap: wrap;
@@ -14,11 +15,11 @@ align-items:flex-start;
 justify-content: center;
 }
 .text div{
-    height: 50%;
-    background-color:#ff8c00;
-    margin: 1vw;
-    padding: 1vw;
-}
+    height: 50% ;
+    background-color:#ff8c00 ;
+    margin: 1vw ;
+    padding: 1vw ; }
+
 .textestilo{
     background-color: skyblue; color: white; font-size: x-large;
 }
@@ -46,7 +47,7 @@ justify-content: center;
    gap: 2%;
    padding: 1%;
    background-color: #ff8c00;
-}
+} 
 .cuadri-cont{
     width: 100%;
     display: flex; flex-wrap: wrap;
@@ -78,7 +79,7 @@ justify-content: center;
     width: 100%;      /* 70% del ancho de la ventana */
     height: 100%;     /* 50% de la altura de la ventana */}
 
-.flex-container {
+  .flex-container{
     display: flex;
     background-color: tomato;
     justify-content: center;
